@@ -1,0 +1,33 @@
+First:
+Insert 654.5708 ms
+Append 3.3489 ms
+
+tinyArray:
+Insert - 669.5629 ms
+Append - 3.6047
+
+smallArray:
+Insert - 657.958 ms
+Append - 2.849 ms
+
+mediumArray:
+Insert - 671.9617 ms 
+Append - 3.3733 ms
+
+largeArray: 
+Insert - 664.8064 ms 
+Append - 3.4896 ms
+
+extraLargeArray:
+Insert - 664.1536 ms
+Append - 4.5349 ms
+
+
+It seems to me that the smallArray is the best function, the Append time is the lowest out of all the arrays.
+Even though the Insert time took a little bit longer than the first one, the first test I did at the top was 
+me testing the function without an array plugged into the function. 
+
+It seems like the higher the array goes it has a longer append time.
+
+I think the append function scales better. It is easier for me to read. Because the time on it is less than the insert.
+The .push method scales better because it has a runtime of 4.6 rather than an insert runtime that scales at 664.2 on the extraLargeArray.
